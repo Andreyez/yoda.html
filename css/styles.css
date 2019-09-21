@@ -95,11 +95,10 @@ main {display: flex;align-items: center;}
     height: 210px;
     width: 430px;
     margin-left: 85px;
-    margin-top: 100px;
+    margin-top: 145px;
  }
 .right {
-    height:;
-    width: ;
-    margin-left: 440px;
-    margin-top: -140px;
+    width: 70%;
+    margin-left: 380px;
+    margin-top: -159px;
 }

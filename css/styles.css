@@ -1,0 +1,105 @@
+body {background-image: url(img/joda.png);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: black;
+
+    background-repeat:no-repeat;
+    background-position:center 80px
+}
+
+header {
+    position: fixed;
+    color: black;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+
+.navigation {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 522px;
+    width: 72px;
+    height: 72px;
+}
+
+.menu {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 55px;
+    display: inline-block;
+    color: black;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+.menu li:after {
+    display: block;
+    content: "";
+    color: black;
+    background-color: black;
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.menu li:hover:after,
+.menu li:focus:after {
+    width: 100%;
+}
+main {display: flex;align-items: center;}
+.left {
+    height: 210px;
+    width: 430px;
+    margin-left: 85px;
+    margin-top: 100px;
+ }
+.right {
+    height:;
+    width: ;
+    margin-left: 440px;
+    margin-top: -140px;
+}
